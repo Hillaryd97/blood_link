@@ -1,0 +1,75 @@
+<input type="hidden" name="hospital_id" value="<?php echo $row['id'] ?>" />
+<div>
+  <div>
+    <label class="">Patient Name</label>
+    <input
+      class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2"
+      type="text"
+      placeholder="Enter Patient name"
+      name="p_name"
+    />
+  </div>
+  <div>
+    <label class="">Hospital Name & Location</label>
+    <input
+      class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2"
+      type="text"
+      placeholder="Enter Hospital name and location"
+      name="h_name"
+    />
+  </div>
+  <div>
+    <label class=""> Blood Type</label>
+    <select
+      name="bgroup"
+      class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2"
+    >
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+    </select>
+  </div>
+  <div>
+    <div>
+      <label class="">Required Units</label>
+      <input
+        class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2"
+        type="text"
+        placeholder="Required Units"
+        name="units"
+      />
+    </div>
+    <div>
+      <label class=""> Date Needed</label>
+      <input
+        class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2"
+        type="text"
+        placeholder="eg: 2023-07-29"
+        name="date"
+      />
+    </div>
+
+    <label class=""> Contact Information</label>
+    <input
+      class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2"
+      type="text"
+      placeholder="Enter contact information. (email or phone)"
+      name="contact"
+    />
+  </div>
+</div>
+<div>
+  <label class=""> Additional Instructions</label>
+  <input
+    class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2"
+    type="text"
+    style="height: 3em"
+    placeholder="Enter other information "
+    name="comment"
+  />
+</div>

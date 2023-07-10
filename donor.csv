@@ -1,0 +1,41 @@
+6,John,Doe,johndoe@example.com,+234987654321,1985-07-15,12A,Main Street,Lagos,Nigeria,75,180,AA,O+,pass123
+4,Jane,Smith,janesmith@example.com,+234123456789,1990-03-25,5B,Maple Avenue,Abuja,Nigeria,65,165,AS,A-,hello123
+5,David,Williams,davidwilliams@example.com,+234876543210,1978-11-09,9C,Highland Road,Kano,Nigeria,80,175,6SS,B+,secure456
+44,Grace,Johnson,gracejohnson@example.com,+234234567890,1995-09-02,3D,Park Lane,Port Harcourt,Nigeria,60,160,AA,AB+,p@ssw0rd
+7,Michael,Brown,michaelbrown@example.com,+234765432109,1982-06-12,7E,Sunset Boulevard,Ibadan,Nigeria,72,178,SS,A+,secret321
+8,Adeola,Adeyemi,adeolaadeyemi@example.com,+234987654321,1991-02-04,22F,Berry Street,Lagos,Nigeria,68,165,AS,B-,password123
+9,Chika,Okafor,chikaokafor@example.com,+234123456789,1989-05-18,8G,Green Road,Enugu,Nigeria,70,170,AA,O-,secure789
+10,Blessing,Nwosu,blessingnwosu@example.com,+234876543210,1987-08-30,6H,Unity Lane,Abuja,Nigeria,63,162,AS,AB+,pass1234
+11,Abdullahi,Abubakar,abdullahiabubakar@example.com,+234234567890,1984-12-07,14I,Garden Avenue,Kano,Nigeria,75,175,SS,A+,hello456
+12,Chioma,Okonkwo,chiomaokonkwo@example.com,+234765432109,1993-07-21,10J,River Road,Port Harcourt,Nigeria,67,160,AA,A-,secret987
+13,Olumide,Adewale,olumideadewale@example.com,+234987654321,1981-04-14,19K,Church Street,Ibadan,Nigeria,79,180,AS,AB+,p@ssw0rd123
+14,Ebere,Uzor,ebereuzor@example.com,+234123456789,1998-01-28,5L,Sunrise Avenue,Lagos,Nigeria,62,165,AA,O+,secure654
+15,Funke,Akindele,funkeakindele@example.com,+234876543210,1986-10-11,11M,Orchard Road,Abuja,Nigeria,68,165,SS,B+,password987
+16,Segun,Adegbite,segunadegbite@example.com,+234234567890,1997-06-23,16N,Diamond Street,Enugu,Nigeria,72,170,AS,A-,pass12345
+17,Titilayo,Adeoti,titilayoadeoti@example.com,+234765432109,1994-03-05,9O,Grove Lane,Lagos,Nigeria,65,160,AA,O-,hello654
+18,Aminu,Musa,aminumusa@example.com,+234987654321,1983-11-18,15P,Silver Road,Kano,Nigeria,73,175,AS,B-,secret9876
+19,Ngozi,Okoro,ngozookoro@example.com,+234123456789,1992-09-10,21Q,Mango Avenue,Port Harcourt,Nigeria,62,165,SS,AB+,p@ssw0rd456
+20,Joshua,Oladele,joshuaoladele@example.com,+234876543210,1988-06-24,13R,Vine Street,Ibadan,Nigeria,77,180,AA,O+,secure1234
+21,Aisha,Bello,aishabello@example.com,+234234567890,1996-03-14,4S,Palm Road,Abuja,Nigeria,58,155,AS,A+,password321
+22,Chinedu,Eze,chinedueze@example.com,+234765432109,1980-12-27,17T,Oak Lane,Enugu,Nigeria,80,178,AA,AB+,hello9876
+23,Loveth,Ibrahim,lovethibrahim@example.com,+234987654321,1987-09-09,10U,Pear Street,Lagos,Nigeria,67,165,AS,B-,secret098
+24,Chidi,Okonkwo,chidiokonkwo@example.com,+234876543210,1989-08-17,12V,Mango Avenue,Enugu,Nigeria,70,175,AA,A-,secure098
+25,Amaka,Obi,amakaobi@example.com,+234234567890,1992-05-23,9W,Blossom Lane,Port Harcourt,Nigeria,60,160,AS,AB+,password567
+26,Emeka,Igwe,emekaigwe@example.com,+234765432109,1983-12-04,15X,Sunrise Avenue,Lagos,Nigeria,80,180,SS,A+,hello234
+27,Patience,Nnamdi,patiencennamdi@example.com,+234987654321,1991-07-11,8Y,Orchard Road,Abuja,Nigeria,63,162,AS,O-,secret345
+28,Mohammed,Ibrahim,mohammedibrahim@example.com,+234123456789,1978-11-29,20Z,Sunset Boulevard,Ibadan,Nigeria,75,170,AS,B+,pass2345
+29,Bola,Adeleke,bolaadeleke@example.com,+234876543210,1994-02-15,11AA,River Road,Enugu,Nigeria,65,165,AA,O-,secure543
+30,Oluwatobi,Adeyemo,oluwatobiadeyemo@example.com,+234234567890,1996-09-06,14BB,Oak Lane,Abuja,Nigeria,67,170,SS,B-,hello2345
+31,Yusuf,Muhammad,yusufmuhammad@example.com,+234765432109,1985-03-25,17CC,Pear Street,Lagos,Nigeria,72,178,AA,AB+,secret678
+32,Blessing,Okafor,blessingokafor@example.com,+234987654321,1993-12-10,22DD,Green Road,Kano,Nigeria,62,160,AS,A-,pass567
+33,Joy,Egwu,joyegwu@example.com,+234123456789,1990-05-05,10EE,Highland Road,Kano,Nigeria,68,165,SS,O+,hello890
+34,James,Adeleke,jamesadeleke@example.com,+234876543210,1987-11-17,19FF,Palm Road,Abuja,Nigeria,77,180,AA,A-,secure789
+35,Blessing,Okoro,blessingokoro@example.com,+234234567890,1998-02-28,6GG,Unity Lane,Lagos,Nigeria,65,165,AS,B-,password678
+36,Kingsley,Obi,kingsleyobi@example.com,+234765432109,1981-09-21,13HH,Vine Street,Ibadan,Nigeria,79,175,AA,O+,hello3456
+37,Rita,Uzor,ritauzor@example.com,+234987654321,1997-06-06,16II,Grove Lane,Lagos,Nigeria,62,160,AA,A-,secret234
+38,Samuel,Okolie,samuelokolie@example.com,+234123456789,1984-04-20,21JJ,Church Street,Abuja,Nigeria,73,175,AS,AB+,pass789
+39,Efe,Ibrahim,efeibrahim@example.com,+234876543210,1992-11-15,9KK,Silver Road,Kano,Nigeria,62,165,SS,A-,hello789
+40,Tope,Okon,topeokon@example.com,+234234567890,1995-07-28,11LL,Green Road,Port Harcourt,Nigeria,70,170,AA,O+,secure890
+41,Joseph,Bassey,josephbassey@example.com,+234765432109,1988-12-19,16MM,Main Street,Ibadan,Nigeria,75,180,AS,B+,password890
+42,Nancy,Osagie,nancyosagie@example.com,+234987654321,1996-03-02,8NN,Maple Avenue,Abuja,Nigeria,60,160,AA,O-,hello567
+43,Emmanuel,Idris,emmanuelidris@example.com,+234123456789,1983-10-12,15OO,Unity Lane,Enugu,Nigeria,80,178,SS,AB+,secret789
