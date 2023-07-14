@@ -29,7 +29,7 @@ include 'conn.php';
       <div class="flex space-x-3 items-center">
         <a href="index.html" class="text-lg hover:text-red-700">Home</a>
         <a href="#about" class="text-lg hover:text-red-700">About Us</a>
-        <a href="login.php" class="text-lg bg-red-700 py-1.5 px-3 rounded-md text-white hover:bg-red-500">Admin
+        <a href="../admin/login.php" class="text-lg bg-red-700 py-1.5 px-3 rounded-md text-white hover:bg-red-500">Admin
           Login</a>
       </div>
     </nav>

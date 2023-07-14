@@ -63,11 +63,11 @@ $id = $_SESSION["id"];
                     <thead class="text-lg">
                         <tr>
                             <!-- <th class="hidden">No.</th> -->
-                            <th>Patient Name</th>
+                            <th>Donor Name</th>
                             <th class="">Hospital Name</th>
                             <th>Blood Type</th>
                             <th>Required Units</th>
-                            <th>Relationship</th>
+                            <th>Date Needed</th>
                             <th>Contact</th>
                             <th>Remarks</th>
                             <th>Status</th>

@@ -41,7 +41,10 @@ $id = $_SESSION["id"];
                 class="px-3 py-2">Back</button>
             <h2 class="text-2xl text-red-700 text-center">Request Donations</h2>
             <p class="mb-2 text-center text-sm">~ Enter details for donations from donors and hospitals ~</p>
-            <?php
+           
+                    <form class="w-full mt-3" style="" action="request_val.php" method="POST">
+                        <div class="grid grid-cols-2 gap-6">
+                        <?php
             include 'conn.php';
             $sql = "SELECT * FROM hospital where id like $id ";
             $result = mysqli_query($conn, $sql);
@@ -49,15 +52,38 @@ $id = $_SESSION["id"];
                 while ($row = mysqli_fetch_assoc($result)) {
                     // if (strlen($row['logentry']) > 100) $str = substr($row['logentry'], 0, 100) . "...";
                     ?>
-                    <form class="w-full mt-3" style="" action="request_val.php" method="POST">
-                        <div class="grid grid-cols-2 gap-6">
                             <input type="hidden" name="hospital_id" value="<?php echo $row['id'] ?>" />
+                            
+                    <?php
+                }
+            }
+            ?>
                             <div>
                                 <div>
+                                    <label>Choose a Donor</label>
+                                    <select name="p_name"
+                            class="bg-slate-200 border text-black border-red-500 rounded-lg w-full py-0.5 px-2">
+                            <?php
+                            include 'conn.php';
+                            $sql = "SELECT * FROM donors";
+                            $result = mysqli_query($conn, $sql);
+                            if (mysqli_num_rows($result) > 0) {
+                                while ($row = mysqli_fetch_assoc($result)) {
+                                    ?>
+                                    <option class="text-black" value="<?php echo $row['fname']. ' ' . $row['lname'] . ', ' . $row['bgroup']. ', ' . $row['city'] ?>"><?php echo $row['fname']. ', ' . $row['lname'] . ', ' . $row['bgroup']. ', ' . $row['city'] ?>
+                                    </option>
+                                    <?php
+                                }
+                            }
+                            ?>
+                        </select>
+                                </div>
+                                <!-- <div>
                                     <label class="">Patient Name</label>
                                     <input class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2" type="text"
                                         placeholder="Enter Patient name" name="p_name" />
-                                </div>
+                                      
+                                </div> -->
                                 <div>
                                     <label class="">Hospital Name & Location</label>
                                     <input class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2" type="text"
@@ -86,7 +112,7 @@ $id = $_SESSION["id"];
                                     <div>
                                         <label class=""> Date Needed</label>
                                         <input class="bg-slate-200 border border-red-500 rounded-lg w-full py-0.5 px-2"
-                                            type="text" placeholder="eg: 2023-07-29" name="date" />
+                                            type="text" placeholder="eg: 2023-07-29" name="ddate" />
                                     </div>
 
                                     <label class=""> Contact Information</label>
@@ -106,10 +132,6 @@ $id = $_SESSION["id"];
                         </div>
                     </form>
 
-                    <?php
-                }
-            }
-            ?>
         </div>
     </div>
 </body>

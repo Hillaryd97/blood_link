@@ -59,6 +59,8 @@ $id = $_SESSION["id"];
             <p class="mb-2 text-center text-sm">~ View your pending appointments ~</p>
 
             <div style="margin: 0  auto" class="px-2">
+                <h1 class="text-xl py-3 text-center text-red-600">Donation Appointments</h1>
+
                 <table class="table-fixed text-left " style="width: 90%; margin: 0  auto">
                     <thead class="text-lg">
                         <tr>
@@ -94,6 +96,57 @@ $id = $_SESSION["id"];
                     }
                     ?>
                 </table>
+                <h1 class="text-xl py-3 text-center text-red-600">Donation Request Appointments</h1>
+                <table class="table-fixed text-left " style="width: 90%; margin: 0  auto">
+                    <thead class="text-lg">
+                        <tr>
+                            <!-- <th class="hidden">No.</th> -->
+                            <th>Hospital</th>
+                            <th>Date</th>
+                            <th>Requester Contact</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <?php
+                    include 'conn.php';
+                    $sql = "SELECT * FROM request_records where p_name LIKE '%$id%' ";
+                    $result = mysqli_query($conn, $sql);
+                    if (mysqli_num_rows($result) > 0) {
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            // if (strlen($row['logentry']) > 100) $str = substr($row['logentry'], 0, 100) . "...";
+                            ?>
+                            <tbody class="mt-2" style="border-bottom: black solid 2px;">
+                                <tr>
+                                    <td>
+                                        <?php echo $row['h_name']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $row['ddate']; ?>
+                                    </td>
+                                    <td>
+                                        <?php echo $row['contact']; ?>
+                                    </td>
+                                    <td style="width: 20%;">
+                                        <?php echo $row['status'] ?>
+                                    </td>
+                                    <td class="center" style="text-align:center;">
+                                        <form action="approve_request.php" method="POST">
+                                            <input type="hidden" name="userid" value="<?php echo $row['id'] ?>">
+                                            <label for="">Reply Request:</label>
+                                            <input placeholder="Type a reply here" type="text" class="border " name="status">
+                                            <button type="submit" name="accepted"
+                                                class="bg-blue-700 text-white w-36 mt-2 py-1 px-2 rounded-lg hover:bg-blue-500 duration-300">Send</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <?php
+                        }
+                    }
+                    ?>
+                </table>
+
             </div>
 
 

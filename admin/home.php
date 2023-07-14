@@ -240,7 +240,7 @@ $id = $_SESSION["id"];
             <thead style="border: black solid 2px;">
                 <tr>
                     <th class="hidden">No</th>
-                    <th>Patient Name</th>
+                    <th>Donor Name</th>
                     <th>Hospital Name</th>
                     <th>Blood Group</th>
                     <th>Units</th>
